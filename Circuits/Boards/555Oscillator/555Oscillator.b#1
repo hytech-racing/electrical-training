@@ -5465,7 +5465,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="30.48" y="14.859" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="U$2" library="HyTechDevices" package="CR-2450/G1AN" value="CR-2450/G1AN" x="12.7889" y="15.7988" smashed="yes" rot="R180"/>
-<element name="R2" library="HyTechDevices" package="AXIAL-0.3" value="10k" x="38.9001" y="9.0678" rot="R90"/>
+<element name="R2" library="HyTechDevices" package="AXIAL-0.3" value="330" x="38.9001" y="9.0678" rot="R90"/>
 </elements>
 <signals>
 <signal name="N$2">
