@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -672,6 +672,41 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="4.064" y1="-3.6195" x2="-4.064" y2="-3.6195" width="0.127" layer="21"/>
 <wire x1="-4.064" y1="-3.6195" x2="-4.064" y2="3.6195" width="0.127" layer="21"/>
 </package>
+<package name="TRIMPOT_3296">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.7625" y1="-2.2225" x2="4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.7625" y1="2.8575" x2="4.1275" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.54" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="2.8575" x2="-4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="-2.2225" x2="4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.413" y2="-0.762" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-0.635" x2="2.413" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.889" x2="2.286" y2="-0.381" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.889" x2="2.159" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.381" x2="2.159" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.762" x2="2.413" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.762" x2="2.286" y2="-0.889" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.508" x2="2.286" y2="-0.381" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-0.635" x2="2.159" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.635" x2="-2.54" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.635" x2="2.159" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.016" x2="2.159" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-1.143" x2="2.159" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.254" x2="2.032" y2="-0.127" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-0.127" x2="2.032" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.8575" x2="4.1275" y2="2.54" width="0.1778" layer="21"/>
+<pad name="1" x="2.54" y="1.27" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-2.54" y="1.27" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="1.27" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.7625" y="-3.81" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="-3.81" y="3.175" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
+<text x="2.921" y="-1.905" size="1.27" layer="51" ratio="10">3</text>
+<text x="2.2225" y="0.635" size="1.016" layer="51" ratio="12">1</text>
+<text x="-0.635" y="0.635" size="1.016" layer="51" ratio="12">2</text>
+<text x="-3.175" y="0.635" size="1.016" layer="51" ratio="12">3</text>
+</package>
 <package name="LED-3MM">
 <description>3mm LED
 &lt;br&gt;
@@ -854,6 +889,27 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TPOT">
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.683" x2="-2.54" y2="-1.143" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.143" x2="-3.175" y2="-2.413" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.413" x2="-1.905" y2="-2.413" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-2.413" x2="-2.54" y2="-1.143" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="0" x2="-2.286" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.667" y1="1.905" x2="-2.286" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="2.54" x2="-1.905" y2="3.175" width="0.1524" layer="94"/>
+<text x="-5.715" y="-3.81" size="1.524" layer="95" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.524" layer="96" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-1.905" y="-4.953" size="1.27" layer="94" rot="R90">1</text>
+<text x="-1.905" y="-0.508" size="1.27" layer="94" rot="R90">3</text>
+<pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="LED">
 <description>LED
@@ -1257,6 +1313,27 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 </devices>
 </deviceset>
+<deviceset name="TRIMPOT_3296" prefix="R" uservalue="yes">
+<description>&lt;b&gt;3296 Series&lt;/b&gt;&lt;p&gt;
+3/8" Square Trimmer
+&lt;br&gt;
+&lt;a href="https://github.com/chiengineer/Eagle-Libraries/blob/master/Potentiometers/bourns.lbr"&gt;Source&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="C" package="TRIMPOT_3296">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="LED" prefix="LED" uservalue="yes">
 <description>Light Emitting Diode (LED)
 &lt;br&gt;
@@ -1328,10 +1405,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="U$2" library="HyTechDevices" deviceset="CR-2450/G1AN" device=""/>
 <part name="C1" library="HyTechDevices" deviceset="CAP" device="_" value="10uF"/>
 <part name="C2" library="HyTechDevices" deviceset="CAP" device="_" value="10nF"/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="AXIAL-0.3" value="220"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR" device="AXIAL-0.3" value="330"/>
+<part name="R2" library="HyTechDevices" deviceset="TRIMPOT_3296" device="C"/>
 <part name="LED1" library="HyTechDevices" deviceset="LED" device="-5MM"/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR" device="AXIAL-0.3" value="330"/>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR" device="AXIAL-0.3" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -1354,6 +1431,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <attribute name="NAME" x="3.5814" y="74.93" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="8.382" y="74.93" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="R2" gate="G$1" x="10.16" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.875" y="52.07" size="1.524" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="13.97" y="52.07" size="1.524" layer="96" ratio="10" rot="R270"/>
+</instance>
 <instance part="LED1" gate="LED" x="99.06" y="45.72" smashed="yes">
 <attribute name="NAME" x="102.616" y="41.148" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="104.775" y="41.148" size="1.778" layer="96" rot="R90"/>
@@ -1361,10 +1442,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="R3" gate="G$1" x="93.98" y="25.4" smashed="yes">
 <attribute name="NAME" x="90.17" y="26.8986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="90.17" y="22.098" size="1.778" layer="96"/>
-</instance>
-<instance part="R2" gate="G$1" x="5.08" y="53.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.5814" y="49.53" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="8.382" y="49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -1400,11 +1477,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="40.64" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="38.1" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="58.42" x2="10.16" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="58.42" x2="10.16" y2="53.34" width="0.1524" layer="91"/>
+<junction x="10.16" y="58.42"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="58.42" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="58.42" x2="5.08" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<junction x="5.08" y="58.42"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -1460,10 +1538,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="38.1" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="48.26" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
 <junction x="7.62" y="38.1"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="38.1" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
