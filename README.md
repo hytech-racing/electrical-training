@@ -23,6 +23,7 @@ This repository is for training materials and resources.
 * `Resources/`  Tutorials used in training
 
 ## More Information
+* [Software Guide](https://github.com/hytech-racing/training/tree/master/Resources)
 * [Team Site](https://hytechracing.gatech.edu/)
 * [Facebook](https://www.facebook.com/HyTechRacing/)
 * [Engage](https://gatech.campuslabs.com/engage/organization/hytech-racing)
